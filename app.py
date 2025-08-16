@@ -117,7 +117,7 @@ if st.button("評価する", disabled=bool(errs)):
 現在パラメータ（整数）: {cur_int_view}
 
 スコア:
-- 総合: {scores["TOTAL_100"]} / ランク: {rank}
+- 総合評価: {scores["TOTAL_100"]} / ランク: {rank}
 - 攻撃面(0-1): {scores["O_offense"]}
 - 防御面(0-1): {scores["D_defense"]}
 - 成長度合い(0-1): {scores["G_growth"]}
