@@ -22,7 +22,7 @@ with st.sidebar:
     st.caption("初期→現在→上限の関係から“成長度合い”も加点します。")
 
 # ---- パラメータ入力（整数） ----
-st.subheader("パラメータ入力（整数）")
+st.subheader("パラメータ入力")
 colA, colB, colC = st.columns(3)
 with colA: st.markdown("**初期値**")
 with colB: st.markdown("**現在値**")
